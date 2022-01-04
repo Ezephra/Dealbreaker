@@ -1,10 +1,11 @@
-.dealList {
+.dealCard {
     display: flex;
     flex: row;
     flex-wrap: wrap;
     overflow: auto;
+    justify-content: center;
 }
-.dealCard {
+.dealCard_info {
     border: 1px;
     padding: 10px;
     width: 200px;
@@ -14,7 +15,9 @@
     border-radius: 5px; /* 5px rounded corners */
     margin: 10px
 }
-.img {
-    max-height: 350px;
+.gameTitle {
+    bottom: 0px;
+}
+.thumbnail {
     max-width: 200px;
 }

@@ -1,0 +1,21 @@
+.gameItem {
+    margin: 5px;
+}
+
+.popupButton {
+    appearance: none;
+    background: #8f8f8f;
+    border-radius: 0.25em;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    height: 3em;
+    line-height: 3em;
+    padding: 0 1em;
+  
+    
+}
+.popupButton:hover {
+    background-color: #8254ff;
+}

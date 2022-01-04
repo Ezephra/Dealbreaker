@@ -1,0 +1,47 @@
+.popupButton {
+    appearance: none;
+    background: #8f8f8f;
+    border-radius: 0.25em;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    height: 3em;
+    line-height: 3em;
+    padding: 0 1em;
+  
+    
+}
+.popupButton:hover {
+    background-color: #8254ff;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #8254ff;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}

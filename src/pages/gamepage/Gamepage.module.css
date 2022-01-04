@@ -1,0 +1,46 @@
+.searchPage {
+    height: 100%;
+    margin: 20px;
+    padding-bottom: 15px;
+}
+.search {
+    width: 85%;
+    padding: 1.5em;
+    border: 3px solid #8254ff;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #8f8f8f;
+}
+.resultCard {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: groove #ccc 1px;
+    border-radius: 3px;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.gameTitle {
+    text-decoration: none;
+    color: #8254ff;
+    text-transform: none;
+}
+.gameTitle:focus {
+    text-decoration: none;
+}
+.gameTitle:hover {
+    text-decoration: none;
+}
+.gameTitle:visited {
+    text-decoration: none;
+}
+.gameTitle:link {
+    text-decoration: none;
+}
+.gameTitle:active {
+    text-decoration: none;
+}
