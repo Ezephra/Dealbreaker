@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from "./Contactpage.module.css";
 
 const Contact = () => {
 
@@ -14,9 +15,9 @@ const Contact = () => {
     }
 
     return (
-        <div  className="container">
-            <h1>Contact us</h1>
-            <form onSubmit={handleSubmit} className="form">
+        <div className={styles.container}>
+            <h1>Contact me</h1>
+            <form onSubmit={handleSubmit} >
                 <div className="name">
                     <label htmlFor="firstName" id="nameLabel">First Name</label>
                     <input
